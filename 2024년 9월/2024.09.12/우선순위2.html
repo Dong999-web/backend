@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #purple{color: purple;}
+        .red{color: red;}
+        h1{color: blue !important;}
+/* 선택자는 구체적으로 부모 자식으로 기술한게 우선 */
+/* id가 부모자식기술보다 우선 */
+/* 단 !important가 최우선 */
+    </style>
+</head>
+<body>
+    <div>
+    <h1 class="red" id="purple">나는 빨간색</h1>
+    </div>
+</body>
+</html>
+<!-- !important > id선택자 > 클래스선택자 > 태그선택자 순으로 우선순위 -->

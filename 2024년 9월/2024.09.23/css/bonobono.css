@@ -1,0 +1,122 @@
+*{margin: 0;padding: 0;}
+.bigbox{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border: 1px dotted #333;
+    margin: 100px auto 0;/*좌우 중앙정렬 위100 아래0*/    
+}
+
+.face{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    bottom: 0;
+    background-color: #3b80ff;
+    border: 10px solid #333;
+    box-sizing: border-box;
+}
+
+.eyeball{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+}
+.eyeball.left{left: 105px;}
+.eyeball.right{right: 105px;}
+.nose{
+    width: 43px;
+    height: 43px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    margin-left: -20px;
+    z-index: 1;
+}
+.mouth{
+    width: 120px;
+    height: 90px;
+    border: 5px solid #000;
+    box-sizing: border-box;
+    border-radius: 90%;
+    background-color: #fff;
+    position: absolute;
+    top: 290px;
+}
+.mouth.right{
+    right: 145px;
+    transform: rotate(25deg);
+
+}
+.mouth.left{
+    left: 145px;
+    transform: rotate(-25deg);
+}
+.line.left1{
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    left: 75px;
+    background-color: #333;
+    top: 310px;
+    transform: rotate(10deg);
+}
+.line.left2{
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    left: 75px;
+    background-color: #333;
+    top: 340px;
+    transform: rotate(0deg);
+}
+.line.left3{
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    left: 75px;
+    background-color: #333;
+    transform-origin: right center;
+    top: 360px;
+    transform: rotate(-10deg);
+}
+
+
+.line.right1{
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    right: 75px;
+    background-color: #333;
+    top: 310px;
+    transform: rotate(-10deg);
+}
+.line.right2{
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    right: 75px;
+    background-color: #333;
+    top: 340px;
+    transform: rotate(0deg);
+}
+.line.right3{
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    right: 75px;
+    background-color: #333;
+    transform-origin: left center;
+    top: 360px;
+    transform: rotate(10deg);
+}
+
+

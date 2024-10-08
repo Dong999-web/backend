@@ -1,0 +1,117 @@
+*{margin: 0;padding: 0;}
+ul{list-style:none;}
+a{text-decoration:none;color:#333;}
+
+#gnb{
+    width: 1000px;
+    height: 650px;
+}
+header{
+    width: 200px;
+    height: 650px;
+    float: left;
+    background-color: salmon;
+}
+
+h1{
+    text-align: center;
+    margin: 20px auto 20px;
+}
+
+.gnb{
+    width: 160px;
+    height: 240px;
+    border: 1px solid #333;
+    overflow: hidden;
+    margin: 0 auto 0;
+    text-align: center;
+}
+.gnb li a{
+    display: block;
+    width: 160px;
+    height: 60px;
+    line-height: 40px;
+    text-indent: 20px;
+    padding: 2px;
+}
+.gnb>li>a{
+    color: #fff;
+}
+
+.gnb>li>{
+    position: relative;
+}
+.gnb li ul{
+    position: absolute;
+    left: 180px;
+    top: 60px;
+    display: none;
+}
+.gnb li:hover>a{
+    background-color: #333;
+    color: #fff;
+}
+.gnb li:hover li{
+    background-color: #d6cece;
+    color: #fff;
+}
+.gnb li:hover ul{
+    display: block;
+}
+
+
+
+
+#main{
+    width: 800px;
+    height: 650px;
+    background-color: yellow;
+    float: left;
+}
+#main #img_slide{
+    width: 100%;
+    height: 350px;
+    background-color: gray;
+}
+section{
+    width: 100%;
+    height: 200px;
+}
+section article{
+    width: 33.33%;
+    height: 200px;
+    float: left;
+}
+section .notice{
+    background-color: aqua;
+}
+section .banner{
+    background-color: purple;
+
+}
+section .icons{
+    background-color: blue;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: violet;
+}
+footer .f_logo{
+    width: 150px;
+    height: 100px;
+    background-color: aquamarine;
+}
+footer .f_menu{
+    width: 650px;
+    height: 50px;
+    background-color: chartreuse;
+}
+footer .f_copy{
+    width: 650px;
+    height: 50px;
+    background-color: chocolate;
+}
+footer article{
+    float: left;
+}

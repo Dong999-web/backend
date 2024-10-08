@@ -1,0 +1,60 @@
+픽사베이 검색 1280*840 강아지사진 다운
+
+사진 file-open dog1~4
+윈쪽툴바에서 크롭툴 선택
+상단메뉴밑 옵션에서 W x H x Resolution
+W=200   H=150  Resolution=72 후 다른이름저장
+
+학습1
+픽사베이에서 고양이검색후다운
+cat1~4로변경
+포토샵에서  300*200*72로 사이즈변경
+c1~c4로 다른이름저장
+화면으로출력
+
+<a href="http://nate.com">
+        <img src="img/d1.jpg" alt="">
+    </a>
+사진에 링크넣기
+
+<a href="index_table1.html" target="_blank">
+        <img src="img/d2.jpg" alt="">
+    </a>
+새텝에 링크열기
+<a href="http://daum.net">다음사이트로이동하자</a>
+a태그로만 감싸지면 사진이든 글자든 링크로이동가능
+
+kids사진 좌표 53,38 / 145,57
+
+https://www.easyspub.co.kr/20_Menu/BookView/PUB/696/PUB
+https://www.easyspub.co.kr/20_Menu/BookView/C000/701/PUB
+
+
+    padding-left: 10px; 안여백 10px이동
+    margin-left: 10px;} 여백 10px이동
+    padding: 10px; 안여백을 상하좌우 전부 10px 적용
+
+margin-left: auto;
+        margin-right: auto; 창 크기에 자동으로 중앙으로 박스를 옮겨줌
+단 박스와같이 넓이가 정해지지않은 글씨들은 사용불가
+
+인터넷프로필올리기
+
+닷홈메뉴-웹호스팅-무료호스팅
+아이디hhasdfg92
+비번ak99009929!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

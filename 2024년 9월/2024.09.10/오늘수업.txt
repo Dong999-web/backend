@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>첨해본다.</title>
+    </head>
+    <body>
+        오늘 열심히 해보겠다.
+    </body>
+</html>
+
+브라우저에 작성한 html띄우기
+왼쪽 5번째 아이콘 확장extensions
+open in browsers 설치
+alt b 단축키로 브라우저 오픈
+
+auto close tag
+auto rename tag
+설치
+/////////////////////////
+새파일>!후 tab 누르면
+
+주석- 파일에 적용안되는 메모
+ctrl+ / 단축키
+
+<meta charset="UTF-8">
+이 있어야 한글로 제대로 깨지지 않고 인코딩됨
+
+
+<del>은 글에 줄을그음 취소선이라고 함
+<ins> 는 밑줄을 그음
+화살표는 ㅁ 에 한자키
+
+<sup>는 제곱(지수) 표현가능
+<sub>는 이산화탄소와 같이 아래쪽 작은표현 가능

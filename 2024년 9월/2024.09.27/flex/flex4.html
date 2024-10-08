@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .flex-container{
+        height: 200px;
+        background-color: dodgerblue;
+        display: flex;
+        align-items: flex-center;
+        justify-content: center;/*공간 균등분배*/
+    }
+    .flex-container > div{
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    }
+
+
+</style>
+</head>
+<body>
+    <h1>Flexible Boxes</h1>
+    <div class="flex-container">
+        <div style="flex-grow: 2 ;">1</div>
+        <div style="flex-grow: 3 ;">2</div>
+        <div style="flex-grow: 5 ;">2</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 550px;
+            height: 700px;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border: 1px solid #333;
+        }
+        .none{
+            list-style: none;
+        }
+        label.title{ /*class="title"인 label에 적용할 스타일*/
+            font-weight: bold;
+            float: left;
+            width: 80px;
+        }
+        ul li{
+            margin-bottom: 10px;
+        }
+        /* input, img 등은 인라인 블록요소 */
+        div.centered{
+            text-align: left;
+        }
+
+        
+    </style>
+</head>
+<body>
+        <div class="container">
+            <h1>  프런트엔드 개발자 지원서</h1>
+            <p>  HTML,CSS,Javascript에 대한 기술적 이해와 경힘이 있는 분을 찾습니다.</p>
+            <hr>
+            <form action="">
+                <h3>개인정보</h3>
+                    <ul class="none">
+                        <li>
+                            <label for="uname" >이름</label>
+                            <input type="text" id="uname" placeholder="공백없이 입력하세요"
+                            required>
+                        </li>
+                        <li>
+                            <label for="tell" >연락처</label>
+                            <input type="tel" id="tell" required>
+                        </li>
+                    </ul>    
+                <h3>지원 분야</h3>
+                    <ul>
+                        <li> 웹 퍼블리싱</li>
+                        <li> 웹 애플리케이션 개발</li>
+                        <li> 개발 환경 개선</li>
+                    </ul>
+                    <h3>지원 동기</h3>
+                    <ul class="none">
+                        <li>
+                            <textarea id="comment" cols="50" rows="8" placeholder="본사 지원 동기를 간략히 써 주세요."></textarea>
+                        </li>
+                    </ul>    
+                <div class="centered">
+                    <input type="submit" value="접수하기">
+                    <input type="reset" value="다시 쓰기">
+                </div>
+            </form>
+        </div>
+</body>
+</html>
